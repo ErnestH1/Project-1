@@ -11,6 +11,7 @@ This application was built with the following technologies:
 * HTML
 * CSS
 * JavaScript
+* JSON
 
 
    
