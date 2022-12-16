@@ -17,7 +17,7 @@ This application was built with the following technologies:
 
 ## Running The Live Hosted Application
 
-* open this [link](https://) on your browser to access the live web application
+* open this [link](https://ernesth1.github.io/Project-1/) on your browser to access the live web application
 * you can also follow the link on the right side of the repository below the discription
 * on the browser you will need to enter your credentials that is user name and password to access the music. 
 * search for your music and click on the play icon to listen to your music.
