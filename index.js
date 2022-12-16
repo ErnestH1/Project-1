@@ -10,8 +10,8 @@
         const display= document.getElementById('music').style.display = "none";
         // var audio = new Audio('./images/Walker.mp3');
         // audio.play();
-        // var mysong = document.getElementById("mysong");
-        // var icon = document.getElementById("icon");
+        // var mysong = document.getElementById("mysong ");
+        // var icon = document.getElementById("icon") ;
         
         // icon.onclick = function(){
         //     if(mysong.paused){
