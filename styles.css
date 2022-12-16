@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #e1b382;
+}
+#logo2{
+    margin-top: -40px;
+    color: #7c232b;
+    padding-left: 15px;
+}
+
+.nav{
+    width: 100%;
+    height: 950px;
+    background-color: #e1b382;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: -100px;
+}
+
+.navbar
+{
+width: 88%;
+margin: auto;
+padding: 15px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin:  0 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:  #9c313a;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+   
+    
+}
+
+.left{
+    margin-left: 6%;
+}
+
+.left h1{
+    font-size: 90px;
+    color:  #7c232b;
+    line-height: 110px;
+    float: left;
+}
+
+.right{
+    float: right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.right p{
+    font-size: 18px;
+    color: #872a2a;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-right: 15px;
+}
+
+#icon{
+    width:80px;
+    cursor: pointer;
+    
+}
+
+#music{
+    margin-top: 5px;
+}
+#sign-in{
+    margin-bottom: 0px;
+}
+.searchbar{
+    padding-top: 400px;
+    padding-left: 400px;
+}
+#inputsearch{
+    width: 400px;
+    height: 20px;
+    border-color: #7c232b;
+    border-radius: 10px;
+}
+#searchIcon{
+    width:20px;
+    height: 10px;
+    font-size: larger;
+    color: #7c232b;
+    background: #e1b382;
+    
+}
+#searchBtn{
+    border-color: #7c232b;
+    border-radius: 6px;
+}
+#loginbtn{
+    background-color:#7c232b;
+    font-size: medium;
+    font-weight: bold;
+    color: #f7f6fe;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 690px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #208edc;
+    cursor: pointer;
+   }
+   #loginbtn:hover{
+    background: #d65108;
+   }
+   .login-form .email-error,
+   .login-form .pass-error{
+       margin-top: 5px;
+       width: 345px;
+       font-size: 15px ;
+       color: #ff0404;
+       margin-left: 550px;
+       background: rgba(255,0,0,0.1);
+       text-align: center;
+       padding: 5px 8px;
+       border-radius: 3px;
+       border: 1px solid #EF9A9A;
+       display: none   ;
+   
+   }
+   .login-form .font{
+    font-size: 18px;
+    color: #130f40;
+    margin: 0 5px;
+    margin-left: 600px;
+}
+.login-form input{
+  height: 40px;
+  width: 350px;
+  padding: 0 5x;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid silver;
+  margin-left: 550px;
+  border-radius: 10px;
+  border-color: #208edc;
+
+}
+.label{
+    padding: 20px, 130px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #7c232b;
+    padding-left: 630px;
+    margin-bottom: 5px;
+}
+#genere{
+    margin-bottom: 300px;
+    padding-bottom: 40px;
+}

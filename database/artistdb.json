@@ -1,0 +1,33 @@
+
+{
+    "Genere": [
+      {
+        "id": 1,
+        "genereName": "Hip-hop",
+        "audio": "https://www.youtube.com/embed/n1uIHLkWt3E"
+       
+      },
+      {
+        "id": 1,
+        "genereName": "RNB/Blues",
+        "audio": "https://www.youtube.com/embed/ELAXMuj7lI8"
+       
+      },
+      {
+        "id": 1,
+        "genereName": "Regage",
+        "audio": "https://www.youtube.com/embed/f4JVLaqCyiw"
+       
+      },
+      {
+        "id": 1,
+        "genereName": "pop",
+        "audio": "https://www.youtube.com/embed/PLTktUesFyM"
+       
+      }
+     
+      
+      
+    ]
+   }
+   

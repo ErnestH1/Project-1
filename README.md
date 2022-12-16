@@ -19,12 +19,12 @@ This application was built with the following technologies:
 
 * open this [link](https://) on your browser to access the live web application
 * you can also follow the link on the right side of the repository below the discription
-* on the browser you will need to enter your credentials that is user name and password to access the meals. 
-* search for your meal and click recipe to get cooking instructions.
+* on the browser you will need to enter your credentials that is user name and password to access the music. 
+* search for your music and click on the play icon to listen to your music.
 
 ## Installation
 
-* In order for you to use the content on this repo ensure you have the following:
+* In order for you to use the content on this repository ensure you have the following:
 
 A computer that runs on either of the following; (Windows 7+, Linux, Mac OS)
 nodejs 9.0+
@@ -35,9 +35,9 @@ Open a terminal / command line interface on your computer
 * Clone the repo by using the following to create a copy on your local machine:
 
  `` git clone https://github.com/ErnestH1/Project-1``
-* Change directory to the repo folder:
+* Change directory to the repository folder:
 
- `` cd /mnt/d..``
+ `` cd /home/music..``
  
 *  Open it in Visual Studio Code
 
@@ -57,33 +57,33 @@ to use and test the code you can run
 
  * you can test your  server by visiting this route in the browser:
  
-  ``https://www.themealdb.com/api/json/v1/1/filter.php?i=``  or from n-point ``https://api.npoint.io/ef01e2173617e99ef7c1/meals/``
+  from n-point ``https://api.npoint.io/9aec623c6586cd4c1b04/music/``  or Genre ``https://api.npoint.io/2df136e90bcc6ac40df8/Genere/``
   
 * Find the index.html  to view on browser, right-click on it, and choose Open with from the menu. You will see a full list of apps that you can use to run your file. Your default browser will be at the top of the list.
 * Select Google Chrome from the list, and view your file in the browser.
 * on the browser, enter log-in details and click log-in button
 
-## The UI usage
+## The UI use
 
 * The landing page starts with a log-in section where the user enters his/her credentials to be allowed to access the application
 
-<!-- <img src="./images/log-in.jpg"  width="200" height="150"/> -->
+<img src="./images/login.png"  width="200" height="150"/>
 
-* To search meal according to ingridient enter on the input space and click search
+* To search for genre enter genre type into the search box and click the search icon
 
-<!-- <img src="./images/search.jpg" width="200" height="150"/> -->
+<img src="./images/search.png" width="200" height="150"/>
 
-* To request fro ingridient put an image and meal name on the form and click submit.
+* To get results from playlist scroll through the playlist and click to play 
 
-<!-- <img src="./images/footer-submit.jpg" width="200" height="150"/> -->
+<img src="./images/playlist.png" width="200" height="150"/>
 
 ## Contributing
 
 Please refer to each project's style and contribution guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
 
-[Fork](https://github.com/ErnestH1/) the repo on GitHub and 
+[Fork](https://github.com/ErnestH1/Project-1) the repository on GitHub and 
 
-clone   `` `` 
+clone   `` git clone https://github.com/ErnestH1/Project-1  `` 
 
 to set the project to your own machine
 * Commit changes to your own branch
