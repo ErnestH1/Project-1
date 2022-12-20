@@ -17,9 +17,9 @@
             <img src="" class="logo">
             <ul>
                 <li><a href="#">HOME </a></li>
-                <li><a href="#">GENRE</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#genere">GENRE</a></li>
+                <li><a href="#subscribe">SUBSCRIBE</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </div>
        <h1 id="logo2">THE MUSIC</h1> 
@@ -38,8 +38,9 @@
                 <div class="pass-error">please eneter valid passord</div>
                 <button onclick="" id="loginbtn" type="button">Log-in</button>
             </form>
-            
         </section>
+    </div>   
+       
 <!-- content section -->
         <div id="intro" class="content">
             <div class="left">
@@ -54,10 +55,6 @@
            
            
         </div>
-    </div>
-
-  
-   
     <section  id="music" class="play-list">
         <div class="searchbar">
             <input id="inputsearch" type="text" id="fname" name="fname">
@@ -73,12 +70,42 @@
         </div>
             
      -->
+     <div id="genere" class="genere">
+
+     </div>
     </section>
-    <div id="genere" class="genere">
 
-    </div>
-    <script src="index.js"></script>
+   
+   <section>
+    <h2>Join Our Community</h2><br>
+    <form id="subscribe">
+       
+        <input id="newsletter" type="email" class="form-control" placeholder="enter email">
+        <button id="newsletterbtn" type="submit" class="btn btn-primary">Subscribe</button>
+    </form>
+   
+   </section>
+   
+    <section class="footer">
+    <footer >
+        <div id="contact" class="contact">
+            Contact: +254 9773936<br>
+            Email: Music.ke@gmail.com<br>
+            PO Box 50-30100 Nairobi
+        </div>
+        <div class="social">
+            <img src="./images/intagram.svg" alt="">
+            <img src="./images/facebook.svg" alt="">
+            <img src="./images/twitter.svg" alt="">
+            <img src="./images/youtube-black.svg" alt="">
+    
+        </div>
+       
+    </footer>
+    
+</section>
 
 
+<script src="index.js"></script>    
 </body>
 </html>
