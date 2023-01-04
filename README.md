@@ -2,7 +2,7 @@
 
 ## Discription
 
-This an application that enables a user to interact with music streams from youtube audio and play it on the DOM.
+This an application that enables a user to interact with music streams from spotify showing the top 10 streamed music per genre.
 
 
 ## Built with
@@ -70,13 +70,7 @@ to use and test the code you can run
 
 <img src="./images/login.png"  width="200" height="150"/>
 
-* To search for genre enter genre type into the search box and click the search icon
 
-<img src="./images/search.png" width="200" height="150"/>
-
-* To get results from playlist scroll through the playlist and click to play 
-
-<img src="./images/playlist.png" width="200" height="150"/>
 
 ## Contributing
 

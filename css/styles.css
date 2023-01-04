@@ -1,12 +1,72 @@
-*{
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+  }*{
     padding: 0;
     margin: 0;
     background-color: #e1b382;
 }
+
+
+.btn.dropdown-toggle {
+  width: 150px;
+  text-align: left;
+}
+
+span.caret {
+  position: absolute;
+  left: 90%;
+  top: 45%;
+}
+option {
+  border-radius: 100px;
+}
+label {
+  padding-top: 5px;
+}
+
+.form-label {
+  padding-left: 0px !important;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.form-control {
+  border-radius: 100px;
+}
+
+.btn-success {
+  background-color: #7c232b !important;
+  border-radius: 100px;
+  border: none;
+
+}
+
+.btn-success:hover {
+  background-color: #7c232b !important;
+}
+#btn_submit{
+    width:40px;
+}
+img.track {
+  border: 1px solid #8a8a8a;
+}
 #logo2{
-    margin-top: -40px;
+    margin-top: -100px;
     color: #7c232b;
-    padding-left: 15px;
+    padding-left:1300px;
+}
+#ui{
+    width: 600px;
+}
+#intro h1{
+    width: 400px;
+    padding-left: -10px;
 }
 
 .nav{
@@ -198,6 +258,10 @@ justify-content: space-between ;
 .social{
     background: #7c232b;
     padding-left:70px;
+}
+.social img{
+    width: 30px;
+    height: 30px;
 }
  h2{
     font-style: italic;

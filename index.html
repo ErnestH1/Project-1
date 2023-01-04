@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Website</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -13,17 +14,17 @@
    
 <!-- menu section -->
     <div class="nav">
-        <div class="navbar">
-            <img src="" class="logo">
-            <ul>
-                <li><a href="#">HOME </a></li>
-                <li><a href="#genere">GENRE</a></li>
-                <li><a href="#subscribe">SUBSCRIBE</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
-        </div>
-       <h1 id="logo2">THE MUSIC</h1> 
-
+        <section id="ui">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">HOME </a></li>
+                    <li><a href="#select_genre">GENRE</a></li>
+                    <li><a href="#subscribe">SUBSCRIBE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+           <h1 id="logo2">THE MUSIC</h1> 
+        </section>
         <section id="sign-in">
             <div class="container-login">
                 
@@ -36,55 +37,48 @@
                 <div class="font">Password</div>
                 <input type="password" name="password"/><br>
                 <div class="pass-error">please eneter valid passord</div>
-                <button onclick="" id="loginbtn" type="button">Log-in</button>
+                <button onclick="displayMain()" id="loginbtn" type="button">Log-in</button>
             </form>
         </section>
     </div>   
        
 <!-- content section -->
+<section id="main">
         <div id="intro" class="content">
             <div class="left">
                 <h1>THE <br> MUSIC</h1>
             </div>
-            <div class="right">
-                <p>Click To Play</p>
-                <iframe width="42" height="31"
-                src="https://www.youtube.com/embed/PLTktUesFyM">
-                </iframe>
-            </div>
            
-           
-        </div>
-    <section  id="music" class="play-list">
-        <div class="searchbar">
-            <input id="inputsearch" type="text" id="fname" name="fname">
-            <button id="searchBtn" type="button"><i id="searchIcon" class="fa fa-search" aria-hidden="true"></i></button>
-        </div>
-        <!-- <div class="right">
-           <div class="right">
-                <p>Click To Play</p>
-                <iframe width="42" height="31"
-                src="https://www.youtube.com/embed/PLTktUesFyM">
-                </iframe>
-            </div>
-        </div>
+    <div id="spotify" class="container">        
+        <form action="">
             
-     -->
-     <div id="genere" class="genere">
-
-     </div>
-    </section>
-
-   
-   <section>
-    <h2>Join Our Community</h2><br>
-    <form id="subscribe">
-       
-        <input id="newsletter" type="email" class="form-control" placeholder="enter email">
-        <button id="newsletterbtn" type="submit" class="btn btn-primary">Subscribe</button>
-    </form>
-   
-   </section>
+            <input type="hidden" id='hidden_token'>
+            <div class="col-sm-6 form-group row mt-4 px-0">
+                <label for="Genre" class="form-label col-sm-2">Genre:</label>
+                <select name="" id="select_genre" class="form-control form-control-sm col-sm-10">
+                    <option>Select...</option>                    
+                </select>
+            </div>
+            <div class="col-sm-6 form-group row px-0">
+                <label for="Genre" class="form-label col-sm-2">Playlists:</label>
+                <select name="" id="select_playlist" class="form-control form-control-sm col-sm-10">
+                    <option>Select...</option>                    
+                </select>
+            </div>                  
+            <div class="col-sm-6 row form-group px-0">
+                <button type="submit" id="btn_submit" class="btn btn-success col-sm-12">Search</button>
+            </div>          
+        </form>        
+        <div class="row">
+            <div class="col-sm-6 px-0">
+                <div class="list-group song-list">
+                    
+                </div>                                             
+            </div>
+            <div class="offset-md-1 col-sm-4" id="song-detail">                
+            </div>
+        </div>   
+    </div>
    
     <section class="footer">
     <footer >
@@ -93,7 +87,7 @@
             Email: Music.ke@gmail.com<br>
             PO Box 50-30100 Nairobi
         </div>
-        <div class="social">
+        <div id="subscribe" class="social">
             <img src="./images/intagram.svg" alt="">
             <img src="./images/facebook.svg" alt="">
             <img src="./images/twitter.svg" alt="">
@@ -105,7 +99,9 @@
     
 </section>
 
-
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="index.js"></script>    
 </body>
 </html>
