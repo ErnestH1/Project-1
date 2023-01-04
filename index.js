@@ -1,7 +1,7 @@
 
         const intro= document.getElementById('sign-in').style.display = "block";
-        const display= document.getElementById('main').style.display = "none";
-        const loginbtn= document.getElementById('loginbtn')
+        const display= document.getElementById('main').style.display = "block";
+        const loginbtn= document.getElementById('loginbtn').style.display="none";
         
         // funtion to dispay main when log-in btn is clicked
         function displayMain(){
